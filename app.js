@@ -21,30 +21,35 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // Route. Luistert naar alle GET requests op /
 app.get('/', (req, res) => {
-
-	// fs.readFile('informatie.json', 'utf8', function (err, data) {
-	//   if (err) throw err;
-	//   let info = JSON.parse(data);
-
   		res.render('home', {
-  			// eerder_opgeslagen_data: info
-  		})
 
-	// });
+  		})
+})
+
+// Route. Luistert naar alle GET requests op resultaten /
+app.get('/resultaten', (req, res) => {
+
+	fs.readFile('informatie.json', 'utf8', function (err, data) {
+		if (err) throw err;
+		let info = JSON.parse(data);
+		console.log(info)
+		res.render('resultaten', {
+			antwoorddata: info
+		})
+	});
 })
 
 let userInput;
 
 app.post('/', (req, res) => {
 	console.log(req.body)
-
 	userInput = JSON.stringify(req.body)
-
 	fs.writeFile('informatie.json', userInput, 'utf8', cb => {
 	});
-
-	res.render('home')
+	res.redirect('resultaten')
 })
+
+
 
 
 app.listen(port, () => {
