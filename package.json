@@ -1,0 +1,29 @@
+{
+  "name": "bt-sietse",
+  "version": "1.0.0",
+  "description": "Bt project sietse",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sietse333/BT-Sietse.git"
+  },
+  "author": "sietse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sietse333/BT-Sietse/issues"
+  },
+  "homepage": "https://github.com/sietse333/BT-Sietse#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "fs": "0.0.1-security"
+  }
+}
