@@ -1,23 +1,23 @@
 <main>
     <section>
         <h1>CMD enquete</h1>
-        <form method="post" enctype="application/x-www-form-urlencoded" action="/">
+        <form method="post" id="formID" enctype="application/x-www-form-urlencoded" action="/">
             <fieldset>
-                <legend>Vak 1</legend>
+                <legend>Uw informatie</legend>
                 <ul>
                     <li>
                         <label>Naam:</label>
-                        <input type="text" name="Naam" placeholder="Voer hier uw naam in" required>
+                        <input type="text" name="Naam" placeholder="Naam..." required>
                     </li>
                     <li>
-                        <label for="docenten">Vakken:</label>
-                        <select name="Vakken">
-                            <option value="Wafs">Wafs</option>
-                            <option value="BT">BT</option>
-                            <option value="Progressive">Progressive</option>
-                            <option value="Css to the rescue">Css to the rescue</option>
-                        </select>
+                        <label>Studentnummer:</label>
+                        <input type="number" name="Studentnummer" placeholder="Studentennummer..." required>
                     </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <legend>Wafs</legend>
+                <ul>
                     <li>
                         <label for="docenten">Docenten:</label>
                         <select name="Docenten">
@@ -55,21 +55,8 @@
             </fieldset>
 
              <fieldset>
-                <legend>Vak 2</legend>
-                <ul>
-                    <li>
-                        <label>Naam:</label>
-                        <input type="text" name="Naam" placeholder="Voer hier uw naam in" required>
-                    </li>
-                    <li>
-                        <label for="docenten">Vakken:</label>
-                        <select name="Vakken">
-                            <option value="Wafs">Wafs</option>
-                            <option value="BT">BT</option>
-                            <option value="Progressive">Progressive</option>
-                            <option value="Css to the rescue">Css to the rescue</option>
-                        </select>
-                    </li>
+                 <legend>Browser technology</legend>
+                 <ul>
                     <li>
                         <label for="docenten">Docenten:</label>
                         <select name="Docenten">
@@ -107,21 +94,8 @@
             </fieldset>
 
              <fieldset>
-                <legend>Vak 3</legend>
-                <ul>
-                    <li>
-                        <label>Naam:</label>
-                        <input type="text" name="Naam" placeholder="Voer hier uw naam in" required>
-                    </li>
-                    <li>
-                        <label for="docenten">Vakken:</label>
-                        <select name="Vakken">
-                            <option value="Wafs">Wafs</option>
-                            <option value="BT">BT</option>
-                            <option value="Progressive">Progressive</option>
-                            <option value="Css to the rescue">Css to the rescue</option>
-                        </select>
-                    </li>
+                 <legend>Progressive web apps</legend>
+                 <ul>
                     <li>
                         <label for="docenten">Docenten:</label>
                         <select name="Docenten">
@@ -158,8 +132,10 @@
                 </ul>
             </fieldset>
 
-
-            <button>Verstuur</button>
+		<div id="errorMessageDiv" class="hidden">
+			<p>Vul alsjeblieft het hele formulier in</p>
+		</div>
+			<input type="submit" value="Verstuur" class="inputKnop">
         </form>
     </section>
 </main>
