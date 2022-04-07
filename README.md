@@ -1,4 +1,4 @@
-**Description of project**
+**Descriptie van het project**
 
 Wij moeten een website maken die zo goed mogelijk werkt op zoveel mogelijk browsers en in zoveel mogelijk toestanden bijvorbeeld mensen die javascript hebben uitstaan of CSS etc. Dit doen wij door progressive enhancement en feature detection toe te passen. 
 
@@ -9,7 +9,7 @@ Ik wil een enquête kunnen invullen over de minor Web Development, met verschill
 ![gangshit](https://user-images.githubusercontent.com/43068118/162185241-2ce48dc8-2852-4120-9b83-d0abe40b2832.png)
 
 
-**How to instal**
+**Hoe moet je installeren**
 
 Om dit project te kunnen runnen moet je npm geinstalleerd hebben
 
@@ -19,7 +19,7 @@ Open een terminal op de juiste plek en type npm install in.
 
 Run de applicatie op localhost:4000 met npm run dev
 
-**Resources**
+**Bronnen**
 - https://caniuse.com/
 - https://www.w3schools.com/
 - https://stackoverflow.com/
