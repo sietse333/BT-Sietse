@@ -7,11 +7,11 @@
                 <ul>
                     <li>
                         <label>Naam:</label>
-                        <input type="text" name="Naam" placeholder="Naam..." required>
+                        <input type="text" name="Naam" id="Naam" placeholder="Naam..." required>
                     </li>
                     <li>
                         <label>Studentnummer:</label>
-                        <input type="number" name="Studentnummer" placeholder="Studentennummer..." required>
+                        <input type="number" name="Studentnummer" min="1" max="999999999""" id="Studentnummer" placeholder="Studentennummer..." required>
                     </li>
                 </ul>
             </fieldset>
@@ -37,7 +37,7 @@
                         </select>
                     </li>
                     <li>
-                        <h3>Geef een cijfer van 1 t/m 10</h3>
+                        <h2>Geef een cijfer van 1 t/m 10</h3>
                     </li>
                     <li>
                         <label>Hoe moeilijk is het:</label>
@@ -76,7 +76,7 @@
                         </select>
                     </li>
                     <li>
-                        <h3>Geef een cijfer van 1 t/m 10</h3>
+                        <h2>Geef een cijfer van 1 t/m 10</h2>
                     </li>
                     <li>
                         <label>Hoe moeilijk is het:</label>
@@ -115,7 +115,7 @@
                         </select>
                     </li>
                     <li>
-                        <h3>Geef een cijfer van 1 t/m 10</h3>
+                        <h2>Geef een cijfer van 1 t/m 10</h2>
                     </li>
                     <li>
                         <label>Hoe moeilijk is het:</label>
@@ -133,9 +133,9 @@
             </fieldset>
 
 		<div id="errorMessageDiv" class="hidden">
-			<p>Vul alsjeblieft het hele formulier in</p>
+			<p>Voer alle invoer velden A.U.B in</p>
 		</div>
-			<input type="submit" value="Verstuur" class="inputKnop">
+			<input id="validButton" type="submit" value="Verstuur" class="inputKnop">
         </form>
     </section>
 </main>
