@@ -11,13 +11,13 @@ Ik wil een enquête kunnen invullen over de minor Web Development, met verschill
 
 **How to instal**
 
-To run this program you need node en npm installed.
+Om dit project te kunnen runnen moet je npm geinstalleerd hebben
 
-To run this project locally you can clone it from this github. Run the code on a local server otherwise the modules wont work
+Om het lokaal te runnen moet je deze github clonen.
 
-Now type in npm install in the terminal to install all the packages.
+Open een terminal op de juiste plek en type npm install in.
 
-Run the application on localhost:4000 with npm run dev
+Run de applicatie op localhost:4000 met npm run dev
 
 **Resources**
 - https://caniuse.com/
