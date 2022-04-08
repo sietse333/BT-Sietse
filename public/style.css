@@ -161,13 +161,11 @@ ul{
 
 .inputKnop:active{
     transform: scale(.9);
-    
 }
 
 .inputKnop:hover{
     transform: scale(1.1);
     animation-duration: .5s;
-
 }
 
 h1{

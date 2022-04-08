@@ -54,6 +54,6 @@ app.post('/', (req, res) => {
 
 app.listen(port, () => {
 	console.log(
-	  `Lekker man, hij is hier te vinden: http://${hostname}:${port}/, zo niet zoek het uit.`
+	  `Runt op http://${hostname}:${port}/, Lets get it.`
 	);
   });
