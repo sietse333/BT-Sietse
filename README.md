@@ -1,3 +1,5 @@
+* Meer informatie *
+
 **Descriptie van het project**
 
 Wij moeten een website maken die zo goed mogelijk werkt op zoveel mogelijk browsers en in zoveel mogelijk toestanden bijvoorbeeld mensen die javascript hebben uitstaan of CSS etc. Dit doen wij door progressive enhancement en feature detection toe te passen. 
