@@ -1,4 +1,5 @@
-* Meer informatie *
+# Meer informatie
+https://github.com/sietse333/BT-Sietse/wiki
 
 **Descriptie van het project**
 
